@@ -1,0 +1,5 @@
+requests==2.32.3
+tqdm==4.66.5aiohappyeyeballs==2.4.0
+click==8.1.7aiohappyeyeballs==2.4.0
+ping3=4.0.8
+
