@@ -1,7 +1,0 @@
-{
-  "files.exclude": {
-    "src/__pycache__": true,
-    ".vscode": true,
-    "env": false
-  }
-}
