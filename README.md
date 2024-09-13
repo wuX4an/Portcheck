@@ -11,13 +11,14 @@ A Python Tool for Scanning Ports This repository contains a simple Python tool f
 2. **Install Dependencies:** Install the required libraries using pip: `pip install -r requirements.txt`
 #### Alternative you can download the binary from the [latest](https://github.com/wuX4an/portcheck/releases/latest).
 ---
-### Usage To use the port checker, run the following command in your terminal: 
-``` 
+### Usage: 
+To use the port checker, run the following command in your terminal: 
+```
 python main.py --ip_address <target_ip_address> --start_port <start_port> --end_port <end_port> --log_path <log_file_path> 
 ```
 
 #### **Example:** 
-``` 
+```
 python main.py --ip_address 127.0.0.1 --start_port 80 --end_port 443 --log_path logs
 ```
 #### This will scan ports 80 to 443 on the IP address 127.0.0.1 and save the results to a log file named `scanned_ports.log` in the `logs` directory. 
